@@ -6,7 +6,8 @@ import time
 from datetime import datetime, timedelta
 import plotly.graph_objects as go
 from py_clob_client.client import ClobClient
-from py_clob_client.constants import POLYMARKET_HOST, CHAIN_ID
+POLYMARKET_HOST = "https://clob.polymarket.com"
+CHAIN_ID = 137
 from py_clob_client.clob_types import MarketOrderArgs, OrderType
 from py_clob_client.order_builder.constants import BUY, SELL
 import os
